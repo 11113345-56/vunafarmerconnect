@@ -5,7 +5,7 @@ function Home() {
     <section className="home-hero">
       <div className="container">
         <div className="hero-content">
-          <h1>FarmConnect</h1>
+          <h1>VunaFarmerConnect</h1>
           <p>Connect directly with trusted farmers, fresh produce, and serious agricultural buyers across Uganda.</p>
           <div className="d-flex flex-wrap gap-2">
             <Link className="btn btn-light btn-lg" to="/products">Browse produce</Link>

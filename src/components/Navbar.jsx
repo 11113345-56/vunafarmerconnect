@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
       <div className="container">
-        <Link className="navbar-brand fw-bold" to="/">VunaFarmConnect</Link>
+        <Link className="navbar-brand fw-bold" to="/">VunaFarmerConnect</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { formatCurrency } from "../utils/formatCurrency";
 
-const uploadsUrl = import.meta.env.VITE_UPLOADS_URL || "http://localhost:5000";
-
 function ProductCard({ product }) {
-  const imageUrl = product.image ? `${uploadsUrl}${product.image}` : "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=900&q=80";
+  const imageUrl = product.image || "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=900&q=80";
 
   return (
     <div className="card product-card h-100">

@@ -164,3 +164,28 @@ body {
     font-size: 3.25rem;
   }
 }
+
+.weather-widget {
+  background: linear-gradient(135deg, var(--farm-sky), #fff);
+  border: 1px solid var(--farm-border);
+  border-left: 4px solid var(--farm-green);
+  border-radius: 8px;
+  box-shadow: 0 8px 22px rgba(20, 54, 37, 0.06);
+}
+
+.weather-widget h2 {
+  color: var(--farm-dark);
+}
+
+.weather-widget .small.text-muted {
+  color: #5b6f64 !important;
+}
+
+.weather-widget strong {
+  color: var(--farm-green);
+  font-size: 1.4rem;
+}
+
+.weather-widget img {
+  filter: drop-shadow(0 2px 4px rgba(20, 54, 37, 0.15));
+}

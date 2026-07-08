@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import LoadingSpinner from "../../components/LoadingSpinner";
+import WeatherWidget from "../../components/WeatherWidget";
 import { productService } from "../../services/productService";
 import { orderService } from "../../services/orderService";
 import { inquiryService } from "../../services/inquiryService";
@@ -31,6 +32,7 @@ function FarmerDashboard() {
   return (
     <>
       <h1 className="section-title">Farmer Dashboard</h1>
+      <WeatherWidget />
       <div className="row g-3">
         <Stat label="My listings" value={stats.products} />
         <Stat label="Available listings" value={stats.available} />
